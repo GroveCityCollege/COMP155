@@ -1,0 +1,1 @@
+i=input;t="Please type in a";s="number you inputted is: ";n=i("Hello there. What's your name?\n");x=int(i("Nice to meet you, "+n+"\n"+t+" number:\n"));y=int(i("The "+s+str(x)+"\n"+t+"nother number:\n"));print("The second",s[:-1],y,"\n\nThe sum of",x,"and",y,"is:",x+y,"\n\nThe product of",x,"and",y,"is:",x*y,"\nBye")
